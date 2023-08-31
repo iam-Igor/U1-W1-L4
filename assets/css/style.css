@@ -12,7 +12,7 @@ header img {width: 250px;margin-top:30px;}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 .article {width: 300px;background-color: white;margin: auto;margin-top: 30px;box-shadow:2px 0px 2px 0px black;}
-.article h1 {font-size: 2em;text-align: center;font-weight: 700;margin-bottom:15px;}
+.article h1 {font-size: 2em;text-align: center;font-weight: 700;margin-bottom:15px;padding-top: 20px;}
 .article p:first-of-type {color: darkgray;font-size: 0.8em;text-align: center;margin-bottom: 15px;}
 .article h2  {margin-bottom: 15px;padding-left:25px;padding-right: 25px;}
 .article p {margin-bottom: 15px;padding-left:25px;padding-right: 25px;}
@@ -44,5 +44,5 @@ h6 {font-size: 0.8em;text-align: end;padding-right: 10px;}
 .footer {background: linear-gradient(180deg,
     #025467,#313B37);width: 300px;margin: auto;height: 150px; margin-bottom: 15px;}
     .footer h5 {color:white;text-align: center;font-size: 1.0em;padding-top:15px;}
-    h5  a {text-decoration: magenta;}
+    h5 + a {text-decoration: magenta;}
     
