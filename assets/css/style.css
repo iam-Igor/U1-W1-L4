@@ -18,6 +18,7 @@ header img {width: 250px;margin-top:30px;}
 .article p {margin-bottom: 15px;padding-left:25px;padding-right: 25px;}
 .article  ul,ol {list-style-type:disc;;padding-left:30px;margin-bottom: 15px;padding-right: 25px;}
 li > span {background-color: #E2E3E5;border-radius: 20%;border:1px solid black;}
+li {padding:5px;}
 h3 {padding-left:25px;padding-right: 25px;}
 h3 span {color:
     #A8166A}
