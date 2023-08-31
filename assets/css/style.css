@@ -1,26 +1,48 @@
 /* IMPOSTAZIONI GENERALI */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.container {font-family: 'Poppins', sans-serif;}
 /* HEADER */
 header img {width: 250px;margin-top:30px;}
 .head {text-align: center;background-color: 
-    #0088AA;color: white;width: 300px;height:300px;margin: auto;margin-top: 30px;}
+    #0088AA;color: white;width: 300px;height:300px;margin: auto;margin-top: 30px;box-shadow: 0px 2px  black;}
     .head h1 {margin-top:30px;font-size: 1.2em;margin-bottom:30px;}
     
 /* MAIN */
 .container {width: 480px; background-image: url(/assets/img/sfondo.png);min-width: 250px;}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-.article {width: 300px;background-color: white;margin: auto;margin-top: 30px;}
+.article {width: 300px;background-color: white;margin: auto;margin-top: 30px;box-shadow:2px 0px 2px 0px black;}
 .article h1 {font-size: 2em;text-align: center;font-weight: 700;margin-bottom:15px;}
 .article p:first-of-type {color: darkgray;font-size: 0.8em;text-align: center;margin-bottom: 15px;}
-.article h2  {margin-bottom: 15px;}
-.article p {margin-bottom: 15px;}
-.article  ul,ol {list-style-type:disc;;padding-left:30px;margin-bottom: 15px;}
+.article h2  {margin-bottom: 15px;padding-left:25px;padding-right: 25px;}
+.article p {margin-bottom: 15px;padding-left:25px;padding-right: 25px;}
+.article  ul,ol {list-style-type:disc;;padding-left:30px;margin-bottom: 15px;padding-right: 25px;}
 li > span {background-color: #E2E3E5;border-radius: 20%;border:1px solid black;}
+h3 {padding-left:25px;padding-right: 25px;}
+h3 span {color:
+    #A8166A}
+iframe {padding-left:25px;padding-right: 25px;border-radius: 20%;margin-bottom:15px;}
+    
 /* TABELLE */
-
+table {margin-bottom:15px;height: 300px;}
+    tr,td {padding-left:25px;padding-right: 25px}
+    table,tr,th,td{border-collapse: collapse;border: 1px solid black;}
+    caption {font-weight: 700;}
+    th {background: 
+        #4573CF;color:white}
 /* FORM */
+form {background-color: #E2E3E4;width: 280px;margin:auto;height: 120px;margin-bottom: 15px;}
+form h4,h2 {text-align: center;}
+input{margin-left: 20px;}
 
 /* ELEMENTI NELL' ASIDE */
-
+.correlati div {background-color: #E2E3E4;margin-bottom: 15px;height: 90px;width: 280px;margin-left: auto;margin-right: auto;}
+.correlati h3 {padding-top: 30px;text-decoration-color: #4573CF;}
+h6 {font-size: 0.8em;text-align: end;padding-right: 10px;}
+.tag {color:black}
 /* FOOTER */
+.footer {background: linear-gradient(180deg,
+    #025467,#313B37);width: 300px;margin: auto;height: 150px; margin-bottom: 15px;}
+    .footer h5 {color:white;text-align: center;font-size: 1.0em;padding-top:15px;}
+    h5  a {text-decoration: magenta;}
+    
